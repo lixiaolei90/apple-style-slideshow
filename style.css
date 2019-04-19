@@ -1,0 +1,44 @@
+body,h1,h2,h3,p,quote,small,form,input,ul,li,ol,label{
+    /* Page reset */
+    margin:0px;
+    padding:0px;
+}
+.main {
+	width:920px;
+	margin: 30px auto;
+	text-align: center;
+	box-shadow: 0 0 3px #AAAAAA;
+}
+.slides {
+	border: 1px solid red;
+	height: 400px;
+	width: 920px;
+	overflow: hidden;
+}
+.slide {
+	border: 10px solid blue;
+	float: left;
+}
+.menu {
+	height: 45px;
+}
+li {
+	width: 60px;
+	height: 45px;
+	display: inline-block;
+	list-style: none;
+}
+.fbar {
+	border: 1px solid black;
+	width: 2px;
+	background: url(./img/divider.png) no-repeat right;
+}
+li a {
+	display: block;
+	background: url(./img/divider.png) no-repeat right;
+	height: 35px;
+	padding-top: 10px;
+}
+a img {
+	border: none;
+}
