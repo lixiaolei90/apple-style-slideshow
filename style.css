@@ -1,40 +1,44 @@
-body,h1,h2,h3,p,quote,small,form,input,ul,li,ol,label{
-    /* Page reset */
-    margin:0px;
-    padding:0px;
+body, h1, h2, h3, p, quote, small, form, input, ul, li, ol, label {
+	/* Page reset */
+	margin: 0px;
+	padding: 0px;
 }
+
 body {
 	color: #444444;
 	font-size: 13px;
 	background: #f2f2f2;
 }
+
 .main {
-	width:920px;
+	width: 920px;
 	margin: 30px auto;
 	text-align: center;
 	box-shadow: 0 0 3px #AAAAAA;
 }
+
 .gallery {
 	border: 1px solid white;
-}
-.slides {
-	border: 1px solid red;
-	height: 400px;
 	width: 920px;
 	overflow: hidden;
 }
-.slide {
-	border: 10px solid blue;
-	float: left;
+
+.slides {
+	/* border: 1px solid red; */
+	height: 400px;
+	overflow: hidden;
 }
+
+.slide {
+	/* border: 1px solid blue; */
+	float: left;
+	
+}
+
 .menu {
 	height: 45px;
 }
-ul {
-	margin: 0px;
-	padding: 0px;
 
-}
 li {
 	width: 60px;
 	height: 45px;
@@ -42,23 +46,27 @@ li {
 	list-style: none;
 	overflow: hidden;
 }
+
 li.inact:hover {
 	background: url(img/pic_bg.png) repeat;
 }
+
 li.act, li.act:hover {
 	background: url(img/active_bg.png);
 }
+
 .fbar {
-	
 	width: 2px;
 	background: url(./img/divider.png) no-repeat right;
 }
+
 li a {
 	display: block;
 	background: url(./img/divider.png) no-repeat right;
 	height: 35px;
 	padding-top: 10px;
 }
+
 a img {
 	border: none;
 }
